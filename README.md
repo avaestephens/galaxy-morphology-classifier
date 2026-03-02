@@ -1,7 +1,7 @@
 # Galaxy Morphology Classification
 
 > **AI 100 — Deep Learning Midterm Project**  
-> Ava Stephens | Penn State University | Spring 2025
+> Ava Stephens
 
 Classifying galaxy images into 10 morphological types using transfer learning (ResNet18) on the Galaxy10 DECals dataset.
 
