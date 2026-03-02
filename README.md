@@ -1,4 +1,4 @@
-# 🌌 Galaxy Morphology Classification
+# Galaxy Morphology Classification
 
 > **AI 100 — Deep Learning Midterm Project**  
 > Ava Stephens | Penn State University | Spring 2025
@@ -7,7 +7,7 @@ Classifying galaxy images into 10 morphological types using transfer learning (R
 
 ---
 
-## 📁 Repository Structure
+## Repo Structure
 
 ```
 galaxy-morphology-classifier/
@@ -18,7 +18,7 @@ galaxy-morphology-classifier/
 
 ---
 
-## 🗂️ Dataset
+## Dataset
 
 **Galaxy10 DECals** — 17,736 color galaxy images at 256×256 pixels, 10 classes.
 
@@ -42,7 +42,7 @@ https://astro.utoronto.ca/~hleung/shared/Galaxy10/Galaxy10_DECals.h5
 
 ---
 
-## 🧠 Model
+## Model
 
 - **Architecture:** ResNet18 pretrained on ImageNet
 - **Strategy:** Transfer learning — frozen backbone + custom head
@@ -51,7 +51,7 @@ https://astro.utoronto.ca/~hleung/shared/Galaxy10/Galaxy10_DECals.h5
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Option 1: Google Colab (recommended)
 1. Upload `galaxy_classifier.ipynb` to [Google Colab](https://colab.research.google.com)
@@ -66,7 +66,7 @@ jupyter notebook galaxy_classifier.ipynb
 
 ---
 
-## 📊 Expected Results
+## Expected Results
 
 | Metric | Value |
 |--------|-------|
@@ -76,7 +76,7 @@ jupyter notebook galaxy_classifier.ipynb
 
 ---
 
-## 📄 Report
+## Report
 
 See `Galaxy_Morphology_Report.pdf` for the full writeup covering:
 - Problem definition & dataset curation
@@ -86,7 +86,7 @@ See `Galaxy_Morphology_Report.pdf` for the full writeup covering:
 
 ---
 
-## 📚 References
+## References
 
 - [Galaxy10 DECals](https://astronn.readthedocs.io/en/latest/galaxy10.html) — Henry Leung, University of Toronto
 - He et al. (2016). *Deep Residual Learning for Image Recognition.* CVPR.
